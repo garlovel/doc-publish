@@ -1,0 +1,5 @@
+php_flag engine off
+AuthUserFile /app/www/.htpasswd
+AuthType Basic
+AuthName "Restricted Access -- Please login"
+Require valid-user
