@@ -23,6 +23,7 @@ console commands to configure git::
   git config --global user.email "email@domain"
   git config --global branch.master.remote origin
   git config --global branch.master.merge refs/heads/master
+  git config --global --add color.ui true
 
 These global settings are recorded in home directory file :file:`~/.gitconfig`. 
 
